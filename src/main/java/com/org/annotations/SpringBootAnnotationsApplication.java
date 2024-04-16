@@ -51,20 +51,20 @@ public class SpringBootAnnotationsApplication {
 //		System.out.println(prototypeBean1.hashCode());
 //		PrototypeBean prototypeBean2=context.getBean(PrototypeBean.class);
 
-		VauleDemo vauleDemo = context.getBean(VauleDemo.class);
-		System.out.println(vauleDemo.getDefaultName());
-		System.out.println(vauleDemo.getHost());
-		System.out.println(vauleDemo.getEmail());
-		System.out.println(vauleDemo.getPassword());
-		System.out.println(vauleDemo.getJavaHome());
-		//System.out.println(vauleDemo.getHomeDir());
-
-		PropertySourceDemo propertySourceDemo=context.getBean(PropertySourceDemo.class);
-		System.out.println(propertySourceDemo.getEmail());
-		System.out.println(propertySourceDemo.getHost());
-		System.out.println(propertySourceDemo.getPassword());
-		System.out.println(propertySourceDemo.getMsgname());
-		System.out.println(propertySourceDemo.getMsgtype());
+//		VauleDemo vauleDemo = context.getBean(VauleDemo.class);
+//		System.out.println(vauleDemo.getDefaultName());
+//		System.out.println(vauleDemo.getHost());
+//		System.out.println(vauleDemo.getEmail());
+//		System.out.println(vauleDemo.getPassword());
+//		System.out.println(vauleDemo.getJavaHome());
+//		//System.out.println(vauleDemo.getHomeDir());
+//
+//		PropertySourceDemo propertySourceDemo=context.getBean(PropertySourceDemo.class);
+//		System.out.println(propertySourceDemo.getEmail());
+//		System.out.println(propertySourceDemo.getHost());
+//		System.out.println(propertySourceDemo.getPassword());
+//		System.out.println(propertySourceDemo.getMsgname());
+//		System.out.println(propertySourceDemo.getMsgtype());
 
 	}
 

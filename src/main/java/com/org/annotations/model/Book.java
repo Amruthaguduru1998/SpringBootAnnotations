@@ -5,6 +5,10 @@ public class Book {
     private String name;
     private int cost;
 
+    public Book() {
+
+    }
+
     public int getId() {
         return id;
     }
